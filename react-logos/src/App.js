@@ -7,6 +7,7 @@ import {
   AfterEffects,
   Animate,
   Audition,
+  Behance,
 } from './lib/components';
 
 function App() {
@@ -62,6 +63,14 @@ function App() {
         transition='ease-in'
       />
       <Audition
+        color={false}
+        theme={darkMode}
+        primaryDark='#343434'
+        primaryWhite='#f4f4f4'
+        hover={'colorize'}
+        transition='ease-in'
+      />
+      <Behance
         color={false}
         theme={darkMode}
         primaryDark='#343434'
