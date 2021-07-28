@@ -11,6 +11,8 @@ import {
   Bridge,
   CharacterAnimator,
   CreativeCloud,
+  CreativeCloudAlt,
+  Dimension,
 } from './lib/components';
 
 function App() {
@@ -98,6 +100,22 @@ function App() {
         transition='ease-in'
       />
       <CreativeCloud
+        color={false}
+        theme={darkMode}
+        primaryDark='#343434'
+        primaryWhite='#f4f4f4'
+        hover={'colorize'}
+        transition='ease-in'
+      />
+      <CreativeCloudAlt
+        color={false}
+        theme={darkMode}
+        primaryDark='#343434'
+        primaryWhite='#f4f4f4'
+        hover={'colorize'}
+        transition='ease-in'
+      />
+      <Dimension
         color={false}
         theme={darkMode}
         primaryDark='#343434'

@@ -9,6 +9,8 @@ import {
   Bridge,
   CharacterAnimator,
   CreativeCloud,
+  CreativeCloudAlt,
+  Dimension,
 } from './Adobe';
 
 export {
@@ -21,4 +23,6 @@ export {
   Bridge,
   CharacterAnimator,
   CreativeCloud,
+  CreativeCloudAlt,
+  Dimension,
 };
