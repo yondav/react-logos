@@ -8,6 +8,9 @@ import {
   Animate,
   Audition,
   Behance,
+  Bridge,
+  CharacterAnimator,
+  CreativeCloud,
 } from './lib/components';
 
 function App() {
@@ -71,6 +74,30 @@ function App() {
         transition='ease-in'
       />
       <Behance
+        color={false}
+        theme={darkMode}
+        primaryDark='#343434'
+        primaryWhite='#f4f4f4'
+        hover={'colorize'}
+        transition='ease-in'
+      />
+      <Bridge
+        color={false}
+        theme={darkMode}
+        primaryDark='#343434'
+        primaryWhite='#f4f4f4'
+        hover={'colorize'}
+        transition='ease-in'
+      />
+      <CharacterAnimator
+        color={false}
+        theme={darkMode}
+        primaryDark='#343434'
+        primaryWhite='#f4f4f4'
+        hover={'colorize'}
+        transition='ease-in'
+      />
+      <CreativeCloud
         color={false}
         theme={darkMode}
         primaryDark='#343434'

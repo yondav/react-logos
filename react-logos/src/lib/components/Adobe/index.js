@@ -4,3 +4,6 @@ export { default as AfterEffects } from './After_Effects';
 export { default as Animate } from './Animate';
 export { default as Audition } from './Audition';
 export { default as Behance } from './Behance';
+export { default as Bridge } from './Bridge';
+export { default as CharacterAnimator } from './Character_Animator';
+export { default as CreativeCloud } from './Creative_Cloud';
