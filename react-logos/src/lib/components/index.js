@@ -1,4 +1,3 @@
-import './logos.css';
 import {
   AcrobatDC,
   AcrobatOnline,
@@ -22,6 +21,8 @@ import {
   Lightroom,
   LightroomClassic,
   MediaEncoder,
+  Photoshop,
+  Portfolio,
 } from './Adobe';
 
 export {
@@ -47,4 +48,6 @@ export {
   Lightroom,
   LightroomClassic,
   MediaEncoder,
+  Photoshop,
+  Portfolio,
 };

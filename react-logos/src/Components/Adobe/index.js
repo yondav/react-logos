@@ -1,5 +1,5 @@
 import React from 'react';
-import * as All from '../../lib/components';
+import * as All from '../../lib/components/Adobe';
 
 const Adobe = ({ darkMode }) => {
   return (
@@ -217,6 +217,26 @@ const Adobe = ({ darkMode }) => {
           transition='ease-in'
         />
         <All.MediaEncoder
+          width='3rem'
+          height='3rem'
+          color={false}
+          theme={darkMode}
+          primaryDark='#343434'
+          primaryWhite='#f4f4f4'
+          hover={'colorize'}
+          transition='ease-in'
+        />
+        <All.Photoshop
+          width='3rem'
+          height='3rem'
+          color={false}
+          theme={darkMode}
+          primaryDark='#343434'
+          primaryWhite='#f4f4f4'
+          hover={'colorize'}
+          transition='ease-in'
+        />
+        <All.Portfolio
           width='3rem'
           height='3rem'
           color={false}

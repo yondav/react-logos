@@ -1,3 +1,5 @@
+import '../logos.css';
+
 export { default as AcrobatDC } from './Acrobat_DC';
 export { default as AcrobatOnline } from './Acrobat_Online';
 export { default as AfterEffects } from './After_Effects';
@@ -20,3 +22,5 @@ export { default as InDesign } from './InDesign';
 export { default as Lightroom } from './Lightroom';
 export { default as LightroomClassic } from './Lightroom_Classic';
 export { default as MediaEncoder } from './Media_Encoder';
+export { default as Photoshop } from './Photoshop';
+export { default as Portfolio } from './Portfolio';
