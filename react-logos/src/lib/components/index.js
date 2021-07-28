@@ -24,6 +24,7 @@ import {
   Photoshop,
   Portfolio,
   Prelude,
+  Premiere,
   PremiereRush,
 } from './Adobe';
 
@@ -53,5 +54,6 @@ export {
   Photoshop,
   Portfolio,
   Prelude,
+  Premiere,
   PremiereRush,
 };
