@@ -1,7 +1,12 @@
 import React, { useContext, useEffect } from 'react';
 import './App.css';
 import { ThemeContext } from './context/ThemeContext';
-import { AcrobatDC } from './lib/components';
+import {
+  AcrobatDC,
+  AcrobatOnline,
+  AfterEffects,
+  Animate,
+} from './lib/components';
 
 function App() {
   const theme = useContext(ThemeContext);
@@ -24,12 +29,36 @@ function App() {
     <div className='App'>
       <button onClick={handleTheme}>toggle theme</button>
       <AcrobatDC
-        color={true}
+        color={false}
         theme={darkMode}
-        hover={'decolorize'}
         primaryDark='#343434'
         primaryWhite='#f4f4f4'
-        transition='ease-out'
+        hover={'colorize'}
+        transition='ease'
+      />
+      <AcrobatOnline
+        color={true}
+        theme={darkMode}
+        primaryDark='#343434'
+        primaryWhite='#f4f4f4'
+        hover={'decolorize'}
+        transition='ease-in'
+      />
+      <AfterEffects
+        color={false}
+        theme={darkMode}
+        primaryDark='#343434'
+        primaryWhite='#f4f4f4'
+        hover={'colorize'}
+        transition='ease-in'
+      />
+      <Animate
+        color={false}
+        theme={darkMode}
+        primaryDark='#343434'
+        primaryWhite='#f4f4f4'
+        hover={'colorize'}
+        transition='ease-in'
       />
     </div>
   );

@@ -39,8 +39,8 @@ const AcrobatDC = (props) => {
   return (
     <div
       className='react-logos-wrapper'
-      onMouseEnter={handleMouseOver}
-      onMouseLeave={handleMouseLeave}
+      onMouseEnter={props.hover ? handleMouseOver : ''}
+      onMouseLeave={props.hover ? handleMouseLeave : ''}
     >
       <svg
         className={props.transition}

@@ -1,4 +1,4 @@
 import './logos.css';
-import { AcrobatDC } from './Adobe';
+import { AcrobatDC, AcrobatOnline, AfterEffects, Animate } from './Adobe';
 
-export { AcrobatDC };
+export { AcrobatDC, AcrobatOnline, AfterEffects, Animate };
