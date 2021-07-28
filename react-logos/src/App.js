@@ -17,6 +17,7 @@ import {
   Dreamweaver,
   ExperienceCloud,
   Fonts,
+  Fuse,
 } from './lib/components';
 
 function App() {
@@ -152,6 +153,14 @@ function App() {
         transition='ease-in'
       />
       <Fonts
+        color={false}
+        theme={darkMode}
+        primaryDark='#343434'
+        primaryWhite='#f4f4f4'
+        hover={'colorize'}
+        transition='ease-in'
+      />
+      <Fuse
         color={false}
         theme={darkMode}
         primaryDark='#343434'

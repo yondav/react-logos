@@ -15,6 +15,7 @@ import {
   Dreamweaver,
   ExperienceCloud,
   Fonts,
+  Fuse,
 } from './Adobe';
 
 export {
@@ -33,4 +34,5 @@ export {
   Dreamweaver,
   ExperienceCloud,
   Fonts,
+  Fuse,
 };
