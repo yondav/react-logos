@@ -26,6 +26,7 @@ import {
   Prelude,
   Premiere,
   PremiereRush,
+  Spark,
 } from './Adobe';
 
 export {
@@ -56,4 +57,5 @@ export {
   Prelude,
   Premiere,
   PremiereRush,
+  Spark,
 };
