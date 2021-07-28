@@ -16,6 +16,7 @@ import {
   DocumentCloud,
   Dreamweaver,
   ExperienceCloud,
+  Fonts,
 } from './lib/components';
 
 function App() {
@@ -143,6 +144,14 @@ function App() {
         transition='ease-in'
       />
       <ExperienceCloud
+        color={false}
+        theme={darkMode}
+        primaryDark='#343434'
+        primaryWhite='#f4f4f4'
+        hover={'colorize'}
+        transition='ease-in'
+      />
+      <Fonts
         color={false}
         theme={darkMode}
         primaryDark='#343434'
