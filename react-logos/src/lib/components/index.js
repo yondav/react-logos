@@ -19,6 +19,7 @@ import {
   Illustrator,
   InCopy,
   InDesign,
+  Lightroom,
 } from './Adobe';
 
 export {
@@ -41,4 +42,5 @@ export {
   Illustrator,
   InCopy,
   InDesign,
+  Lightroom,
 };
