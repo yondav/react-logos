@@ -18,6 +18,7 @@ import {
   Fuse,
   Illustrator,
   InCopy,
+  InDesign,
 } from './Adobe';
 
 export {
@@ -39,4 +40,5 @@ export {
   Fuse,
   Illustrator,
   InCopy,
+  InDesign,
 };

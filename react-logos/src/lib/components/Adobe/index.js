@@ -16,3 +16,4 @@ export { default as Fonts } from './Fonts';
 export { default as Fuse } from './Fuse';
 export { default as Illustrator } from './Illustrator';
 export { default as InCopy } from './InCopy';
+export { default as InDesign } from './InDesign';
