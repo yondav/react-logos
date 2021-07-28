@@ -1,5 +1,7 @@
 .react-logos-wrapper {
   width: fit-content;
+  height: fit-content;
+  margin: 0.5rem;
 }
 
 /* transitions */

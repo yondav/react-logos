@@ -14,3 +14,5 @@ export { default as Dreamweaver } from './Dreamweaver';
 export { default as ExperienceCloud } from './Experience_Cloud';
 export { default as Fonts } from './Fonts';
 export { default as Fuse } from './Fuse';
+export { default as Illustrator } from './Illustrator';
+export { default as InCopy } from './InCopy';

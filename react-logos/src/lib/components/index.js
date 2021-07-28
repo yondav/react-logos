@@ -16,6 +16,8 @@ import {
   ExperienceCloud,
   Fonts,
   Fuse,
+  Illustrator,
+  InCopy,
 } from './Adobe';
 
 export {
@@ -35,4 +37,6 @@ export {
   ExperienceCloud,
   Fonts,
   Fuse,
+  Illustrator,
+  InCopy,
 };

@@ -23,8 +23,7 @@ const AcrobatOnline = (props) => {
   const handleMouseOver = () => {
     if (props.hover === 'colorize') {
       setColor(true);
-    }
-    if ('decolorize') {
+    } else {
       setColor(false);
     }
   };
@@ -32,8 +31,7 @@ const AcrobatOnline = (props) => {
   const handleMouseLeave = () => {
     if (props.hover === 'colorize') {
       setColor(false);
-    }
-    if ('decolorize') {
+    } else {
       setColor(true);
     }
   };
