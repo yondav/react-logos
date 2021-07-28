@@ -21,6 +21,7 @@ import {
   InDesign,
   Lightroom,
   LightroomClassic,
+  MediaEncoder,
 } from './Adobe';
 
 export {
@@ -45,4 +46,5 @@ export {
   InDesign,
   Lightroom,
   LightroomClassic,
+  MediaEncoder,
 };
