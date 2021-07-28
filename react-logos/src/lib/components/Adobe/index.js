@@ -25,3 +25,5 @@ export { default as MediaEncoder } from './Media_Encoder';
 export { default as Photoshop } from './Photoshop';
 export { default as Portfolio } from './Portfolio';
 export { default as Prelude } from './Prelude';
+export { default as PremiereRush } from './Premiere_Rush';
+// export { default as PremiereRush } from './Premiere_Rush';
