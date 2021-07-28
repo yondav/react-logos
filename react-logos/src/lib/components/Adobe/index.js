@@ -18,3 +18,4 @@ export { default as Illustrator } from './Illustrator';
 export { default as InCopy } from './InCopy';
 export { default as InDesign } from './InDesign';
 export { default as Lightroom } from './Lightroom';
+export { default as LightroomClassic } from './Lightroom_Classic';

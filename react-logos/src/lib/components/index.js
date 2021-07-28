@@ -20,6 +20,7 @@ import {
   InCopy,
   InDesign,
   Lightroom,
+  LightroomClassic,
 } from './Adobe';
 
 export {
@@ -43,4 +44,5 @@ export {
   InCopy,
   InDesign,
   Lightroom,
+  LightroomClassic,
 };
