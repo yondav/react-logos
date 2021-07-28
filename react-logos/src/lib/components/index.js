@@ -12,6 +12,7 @@ import {
   CreativeCloudAlt,
   Dimension,
   DocumentCloud,
+  Dreamweaver,
 } from './Adobe';
 
 export {
@@ -27,4 +28,5 @@ export {
   CreativeCloudAlt,
   Dimension,
   DocumentCloud,
+  Dreamweaver,
 };

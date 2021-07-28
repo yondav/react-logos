@@ -14,6 +14,7 @@ import {
   CreativeCloudAlt,
   Dimension,
   DocumentCloud,
+  Dreamweaver,
 } from './lib/components';
 
 function App() {
@@ -125,6 +126,14 @@ function App() {
         transition='ease-in'
       />
       <DocumentCloud
+        color={false}
+        theme={darkMode}
+        primaryDark='#343434'
+        primaryWhite='#f4f4f4'
+        hover={'colorize'}
+        transition='ease-in'
+      />
+      <Dreamweaver
         color={false}
         theme={darkMode}
         primaryDark='#343434'
