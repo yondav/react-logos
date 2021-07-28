@@ -11,6 +11,7 @@ import {
   CreativeCloud,
   CreativeCloudAlt,
   Dimension,
+  DocumentCloud,
 } from './Adobe';
 
 export {
@@ -25,4 +26,5 @@ export {
   CreativeCloud,
   CreativeCloudAlt,
   Dimension,
+  DocumentCloud,
 };

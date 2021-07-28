@@ -13,6 +13,7 @@ import {
   CreativeCloud,
   CreativeCloudAlt,
   Dimension,
+  DocumentCloud,
 } from './lib/components';
 
 function App() {
@@ -116,6 +117,14 @@ function App() {
         transition='ease-in'
       />
       <Dimension
+        color={false}
+        theme={darkMode}
+        primaryDark='#343434'
+        primaryWhite='#f4f4f4'
+        hover={'colorize'}
+        transition='ease-in'
+      />
+      <DocumentCloud
         color={false}
         theme={darkMode}
         primaryDark='#343434'

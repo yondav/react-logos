@@ -9,3 +9,4 @@ export { default as CharacterAnimator } from './Character_Animator';
 export { default as CreativeCloud } from './Creative_Cloud';
 export { default as CreativeCloudAlt } from './Creative_Cloud_Alt';
 export { default as Dimension } from './Dimension';
+export { default as DocumentCloud } from './Document_Cloud';
