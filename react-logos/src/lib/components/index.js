@@ -23,6 +23,7 @@ import {
   MediaEncoder,
   Photoshop,
   Portfolio,
+  Prelude,
 } from './Adobe';
 
 export {
@@ -50,4 +51,5 @@ export {
   MediaEncoder,
   Photoshop,
   Portfolio,
+  Prelude,
 };

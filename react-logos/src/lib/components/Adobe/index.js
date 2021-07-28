@@ -24,3 +24,4 @@ export { default as LightroomClassic } from './Lightroom_Classic';
 export { default as MediaEncoder } from './Media_Encoder';
 export { default as Photoshop } from './Photoshop';
 export { default as Portfolio } from './Portfolio';
+export { default as Prelude } from './Prelude';
