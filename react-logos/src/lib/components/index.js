@@ -13,6 +13,7 @@ import {
   Dimension,
   DocumentCloud,
   Dreamweaver,
+  ExperienceCloud,
 } from './Adobe';
 
 export {
@@ -29,4 +30,5 @@ export {
   Dimension,
   DocumentCloud,
   Dreamweaver,
+  ExperienceCloud,
 };

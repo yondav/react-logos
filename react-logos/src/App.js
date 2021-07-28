@@ -15,6 +15,7 @@ import {
   Dimension,
   DocumentCloud,
   Dreamweaver,
+  ExperienceCloud,
 } from './lib/components';
 
 function App() {
@@ -134,6 +135,14 @@ function App() {
         transition='ease-in'
       />
       <Dreamweaver
+        color={false}
+        theme={darkMode}
+        primaryDark='#343434'
+        primaryWhite='#f4f4f4'
+        hover={'colorize'}
+        transition='ease-in'
+      />
+      <ExperienceCloud
         color={false}
         theme={darkMode}
         primaryDark='#343434'

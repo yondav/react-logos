@@ -11,3 +11,4 @@ export { default as CreativeCloudAlt } from './Creative_Cloud_Alt';
 export { default as Dimension } from './Dimension';
 export { default as DocumentCloud } from './Document_Cloud';
 export { default as Dreamweaver } from './Dreamweaver';
+export { default as ExperienceCloud } from './Experience_Cloud';
