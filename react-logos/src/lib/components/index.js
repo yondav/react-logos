@@ -27,6 +27,7 @@ import {
   Premiere,
   PremiereRush,
   Spark,
+  Stock,
 } from './Adobe';
 
 export {
@@ -58,4 +59,5 @@ export {
   Premiere,
   PremiereRush,
   Spark,
+  Stock,
 };
