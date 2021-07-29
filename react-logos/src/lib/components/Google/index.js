@@ -17,3 +17,4 @@ export { default as GoogleCalendar } from './Google_Calendar';
 export { default as GoogleChat } from './Google_Chat';
 export { default as GoogleCloud } from './Google_Cloud';
 export { default as GoogleCloudFunctions } from './Google_Cloud_Function';
+export { default as GoogleCloudRun } from './Google_Cloud_Run';

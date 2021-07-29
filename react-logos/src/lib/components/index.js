@@ -49,6 +49,7 @@ import {
   GoogleChat,
   GoogleCloud,
   GoogleCloudFunctions,
+  GoogleCloudRun,
 } from './Google';
 
 export {
@@ -99,4 +100,5 @@ export {
   GoogleChat,
   GoogleCloud,
   GoogleCloudFunctions,
+  GoogleCloudRun,
 };
