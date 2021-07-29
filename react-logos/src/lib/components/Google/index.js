@@ -14,3 +14,4 @@ export { default as GoogleAdsense } from './Google_Adsense';
 export { default as GoogleAnalytics } from './Google_Analytics';
 export { default as GoogleAssistant } from './Google_Assistant';
 export { default as GoogleCalendar } from './Google_Calendar';
+export { default as GoogleChat } from './Google_Chat';
