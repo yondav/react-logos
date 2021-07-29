@@ -45,6 +45,7 @@ import {
   GoogleAdsense,
   GoogleAnalytics,
   GoogleAssistant,
+  GoogleCalendar,
 } from './Google';
 
 export {
@@ -91,4 +92,5 @@ export {
   GoogleAdsense,
   GoogleAnalytics,
   GoogleAssistant,
+  GoogleCalendar,
 };
