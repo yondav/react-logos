@@ -50,6 +50,7 @@ import {
   GoogleCloud,
   GoogleCloudFunctions,
   GoogleCloudRun,
+  GoogleCurrents,
 } from './Google';
 
 export {
@@ -101,4 +102,5 @@ export {
   GoogleCloud,
   GoogleCloudFunctions,
   GoogleCloudRun,
+  GoogleCurrents,
 };
