@@ -21,19 +21,11 @@ const Fuse = (props) => {
   };
 
   const handleMouseOver = () => {
-    if (props.hover === 'colorize') {
-      setColor(true);
-    } else {
-      setColor(false);
-    }
+    props.hover === 'colorize' ? setColor(true) : setColor(false);
   };
 
   const handleMouseLeave = () => {
-    if (props.hover === 'colorize') {
-      setColor(false);
-    } else {
-      setColor(true);
-    }
+    props.hover === 'colorize' ? setColor(false) : setColor(true);
   };
 
   return (
