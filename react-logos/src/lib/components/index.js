@@ -38,6 +38,7 @@ import {
   Firebase,
   Gmail,
   Google,
+  Google360,
 } from './Google';
 
 export {
@@ -77,4 +78,5 @@ export {
   Firebase,
   Gmail,
   Google,
+  Google360,
 };
