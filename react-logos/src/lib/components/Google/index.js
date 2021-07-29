@@ -5,3 +5,4 @@ export { default as AndroidAlt } from './Android_Alt';
 export { default as AndroidAlt2 } from './Android_Alt2';
 export { default as Firebase } from './Firebase';
 export { default as Gmail } from './Gmail';
+export { default as Google } from './Google';
