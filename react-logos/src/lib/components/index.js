@@ -43,6 +43,7 @@ import {
   GoogleAdMob,
   GoogleAds,
   GoogleAdsense,
+  GoogleAnalytics,
 } from './Google';
 
 export {
@@ -87,4 +88,5 @@ export {
   GoogleAdMob,
   GoogleAds,
   GoogleAdsense,
+  GoogleAnalytics,
 };
