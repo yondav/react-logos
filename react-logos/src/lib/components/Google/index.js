@@ -12,3 +12,4 @@ export { default as GoogleAdMob } from './Google_AdMob';
 export { default as GoogleAds } from './Google_Ads';
 export { default as GoogleAdsense } from './Google_Adsense';
 export { default as GoogleAnalytics } from './Google_Analytics';
+export { default as GoogleAssistant } from './Google_Assistant';

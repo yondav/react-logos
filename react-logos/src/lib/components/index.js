@@ -44,6 +44,7 @@ import {
   GoogleAds,
   GoogleAdsense,
   GoogleAnalytics,
+  GoogleAssistant,
 } from './Google';
 
 export {
@@ -89,4 +90,5 @@ export {
   GoogleAds,
   GoogleAdsense,
   GoogleAnalytics,
+  GoogleAssistant,
 };
