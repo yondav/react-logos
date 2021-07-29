@@ -6,10 +6,10 @@ const Firebase = (props) => {
   const fill = {
     path_one: props.theme
       ? !color
-        ? `${props.primaryWhite}e9` || '#ffffff'
+        ? `${props.primaryWhite}e9` || '#ffffffe9'
         : '#FFC24A'
       : !color
-      ? `${props.primaryDark}e9` || '#000000'
+      ? `${props.primaryDark}e9` || '#000000e9'
       : '#FFC24A',
     path_two: props.theme
       ? !color

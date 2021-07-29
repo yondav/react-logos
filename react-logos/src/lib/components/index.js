@@ -31,7 +31,7 @@ import {
   XD,
 } from './Adobe';
 
-import { Android, AndroidAlt, AndroidAlt2, Firebase } from './Google';
+import { Android, AndroidAlt, AndroidAlt2, Firebase, Gmail } from './Google';
 
 export {
   AcrobatDC,
@@ -68,4 +68,5 @@ export {
   AndroidAlt,
   AndroidAlt2,
   Firebase,
+  Gmail,
 };
