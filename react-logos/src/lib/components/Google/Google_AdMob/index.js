@@ -20,10 +20,10 @@ const GoogleAdMob = (props) => {
       : '#4285F4',
     path_three: props.theme
       ? !color
-        ? `${props.primaryWhite}e9` || '#ffffffe9'
+        ? props.primaryWhite || '#ffffff'
         : '#EA4335'
       : !color
-      ? `${props.primaryDark}e9` || '#000000e9'
+      ? props.primaryDark || '#000000'
       : '#EA4335',
   };
 

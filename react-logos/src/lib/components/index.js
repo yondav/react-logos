@@ -40,6 +40,7 @@ import {
   Google,
   Google360,
   GoogleAdMob,
+  GoogleAds,
 } from './Google';
 
 export {
@@ -81,4 +82,5 @@ export {
   Google,
   Google360,
   GoogleAdMob,
+  GoogleAds,
 };
