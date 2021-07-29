@@ -1,3 +1,8 @@
+.App {
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+}
 fieldset {
   width: 50vw;
   border: 1px solid var(--pr-black);

@@ -2,6 +2,7 @@ import React, { useContext, useEffect } from 'react';
 import './App.css';
 import { ThemeContext } from './context/ThemeContext';
 import Adobe from './Components/Adobe';
+import Google from './Components/Google';
 
 function App() {
   const theme = useContext(ThemeContext);
@@ -24,6 +25,7 @@ function App() {
     <div className='App'>
       <button onClick={handleTheme}>toggle theme</button>
       <Adobe darkMode={darkMode} />
+      <Google darkMode={darkMode} />
     </div>
   );
 }

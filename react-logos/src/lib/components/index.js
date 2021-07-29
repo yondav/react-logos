@@ -31,6 +31,8 @@ import {
   XD,
 } from './Adobe';
 
+import { Android } from './Google';
+
 export {
   AcrobatDC,
   AcrobatOnline,
@@ -62,4 +64,5 @@ export {
   Spark,
   Stock,
   XD,
+  Android,
 };
