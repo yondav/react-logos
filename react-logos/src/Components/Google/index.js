@@ -76,6 +76,16 @@ const Google = ({ darkMode }) => {
           hover={'colorize'}
           transition='ease-in'
         />
+        <All.GoogleAdMob
+          width='3rem'
+          height='3rem'
+          color={false}
+          theme={darkMode}
+          primaryDark='#343434'
+          primaryWhite='#f4f4f4'
+          hover={'colorize'}
+          transition='ease-in'
+        />
       </div>
     </fieldset>
   );

@@ -39,6 +39,7 @@ import {
   Gmail,
   Google,
   Google360,
+  GoogleAdMob,
 } from './Google';
 
 export {
@@ -79,4 +80,5 @@ export {
   Gmail,
   Google,
   Google360,
+  GoogleAdMob,
 };
