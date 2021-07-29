@@ -41,6 +41,7 @@ import {
   Google360,
   GoogleAdMob,
   GoogleAds,
+  GoogleAdsense,
 } from './Google';
 
 export {
@@ -83,4 +84,5 @@ export {
   Google360,
   GoogleAdMob,
   GoogleAds,
+  GoogleAdsense,
 };

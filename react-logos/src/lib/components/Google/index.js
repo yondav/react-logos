@@ -9,3 +9,4 @@ export { default as Google } from './Google';
 export { default as Google360 } from './Google_360';
 export { default as GoogleAdMob } from './Google_AdMob';
 export { default as GoogleAds } from './Google_Ads';
+export { default as GoogleAdsense } from './Google_Adsense';
