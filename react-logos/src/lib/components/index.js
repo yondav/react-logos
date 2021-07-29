@@ -48,6 +48,7 @@ import {
   GoogleCalendar,
   GoogleChat,
   GoogleCloud,
+  GoogleCloudFunctions,
 } from './Google';
 
 export {
@@ -97,4 +98,5 @@ export {
   GoogleCalendar,
   GoogleChat,
   GoogleCloud,
+  GoogleCloudFunctions,
 };
