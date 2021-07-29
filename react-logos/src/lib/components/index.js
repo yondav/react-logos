@@ -47,6 +47,7 @@ import {
   GoogleAssistant,
   GoogleCalendar,
   GoogleChat,
+  GoogleCloud,
 } from './Google';
 
 export {
@@ -95,4 +96,5 @@ export {
   GoogleAssistant,
   GoogleCalendar,
   GoogleChat,
+  GoogleCloud,
 };

@@ -6,24 +6,24 @@ const GoogleChat = (props) => {
   const fill = {
     path_one: props.theme
       ? !color
-        ? props.primaryWhite || '#ffffff'
+        ? `${props.primaryWhite}e9` || '#ffffffe9'
         : '#00AC47'
       : !color
-      ? props.primaryDark || '#000000'
+      ? `${props.primaryDark}e9` || '#000000e9'
       : '#00AC47',
     path_two: props.theme
       ? !color
-        ? props.primaryWhite || '#ffffff'
+        ? `${props.primaryWhite}e9` || '#ffffffe9'
         : '#5BB974'
       : !color
-      ? props.primaryDark || '#000000c9'
+      ? `${props.primaryDark}e9` || '#000000e9'
       : '#5BB974',
     path_three: props.theme
       ? !color
-        ? `${props.primaryWhite}e9` || '#ffffffe9'
+        ? props.primaryWhite || '#ffffff'
         : '#00832D'
       : !color
-      ? `${props.primaryDark}e9` || '#000000e9'
+      ? props.primaryDark || '#000000'
       : '#00832D',
   };
 
@@ -51,20 +51,23 @@ const GoogleChat = (props) => {
         width={props.width || 128}
         height={props.height || 128}
         viewBox='0 0 479.4 500'
-        enable-background='new 0 0 479.4 500'
+        enableBackground='new 0 0 479.4 500'
       >
         <g>
           <path
+            className={props.transition}
             fill={fill.path_one}
             d='M108.8,269.7V107.2h-71C16.9,107.2,0,124.2,0,145.1V481c0,16.9,20.4,25.3,32.3,13.4l78.1-78.1h222.4
 		c20.9,0,37.8-16.9,37.8-37.8v-71H146.7C125.8,307.5,108.8,290.6,108.8,269.7z'
           />
           <path
+            className={props.transition}
             fill={fill.path_two}
             d='M441.6,0H146.7c-20.9,0-37.8,16.9-37.8,37.8v69.4h223.9c20.9,0,37.8,16.9,37.8,37.8v162.4h71
 		c20.9,0,37.8-16.9,37.8-37.8V37.8C479.4,16.9,462.5,0,441.6,0z'
           />
           <path
+            className={props.transition}
             fill={fill.path_three}
             d='M332.8,107.2H108.8v162.4c0,20.9,16.9,37.8,37.8,37.8h223.9V145.1C370.6,124.2,353.7,107.2,332.8,107.2z'
           />
