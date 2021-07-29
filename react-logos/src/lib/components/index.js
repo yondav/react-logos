@@ -31,7 +31,7 @@ import {
   XD,
 } from './Adobe';
 
-import { Android } from './Google';
+import { Android, AndroidAlt } from './Google';
 
 export {
   AcrobatDC,
@@ -65,4 +65,5 @@ export {
   Stock,
   XD,
   Android,
+  AndroidAlt,
 };
