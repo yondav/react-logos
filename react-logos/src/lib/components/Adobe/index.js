@@ -29,3 +29,4 @@ export { default as Premiere } from './Premiere';
 export { default as PremiereRush } from './Premiere_Rush';
 export { default as Spark } from './Spark';
 export { default as Stock } from './Stock';
+export { default as XD } from './XD';
