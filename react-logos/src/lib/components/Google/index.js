@@ -24,3 +24,4 @@ export { default as GoogleDevelopers } from './Google_Developers';
 export { default as GoogleDocs } from './Google_Docs';
 export { default as GoogleDrive } from './Google_Drive';
 export { default as GoogleDuo } from './Google_Duo';
+export { default as GoogleEarth } from './Google_Earth';

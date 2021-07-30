@@ -56,6 +56,7 @@ import {
   GoogleDocs,
   GoogleDrive,
   GoogleDuo,
+  GoogleEarth,
 } from './Google';
 
 export {
@@ -113,4 +114,5 @@ export {
   GoogleDocs,
   GoogleDrive,
   GoogleDuo,
+  GoogleEarth,
 };
