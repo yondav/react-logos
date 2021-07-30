@@ -54,6 +54,7 @@ import {
   GoogleDataStudio,
   GoogleDevelopers,
   GoogleDocs,
+  GoogleDrive,
 } from './Google';
 
 export {
@@ -109,4 +110,5 @@ export {
   GoogleDataStudio,
   GoogleDevelopers,
   GoogleDocs,
+  GoogleDrive,
 };
