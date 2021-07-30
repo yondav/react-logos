@@ -20,3 +20,5 @@ export { default as GoogleCloudFunctions } from './Google_Cloud_Function';
 export { default as GoogleCloudRun } from './Google_Cloud_Run';
 export { default as GoogleCurrents } from './Google_Currents';
 export { default as GoogleDataStudio } from './Google_Data_Studio';
+export { default as GoogleDevelopers } from './Google_Developers';
+export { default as GoogleDocs } from './Google_Docs';

@@ -52,6 +52,8 @@ import {
   GoogleCloudRun,
   GoogleCurrents,
   GoogleDataStudio,
+  GoogleDevelopers,
+  GoogleDocs,
 } from './Google';
 
 export {
@@ -105,4 +107,6 @@ export {
   GoogleCloudRun,
   GoogleCurrents,
   GoogleDataStudio,
+  GoogleDevelopers,
+  GoogleDocs,
 };
