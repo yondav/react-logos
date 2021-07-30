@@ -55,6 +55,7 @@ import {
   GoogleDevelopers,
   GoogleDocs,
   GoogleDrive,
+  GoogleDuo,
 } from './Google';
 
 export {
@@ -111,4 +112,5 @@ export {
   GoogleDevelopers,
   GoogleDocs,
   GoogleDrive,
+  GoogleDuo,
 };
