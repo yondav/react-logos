@@ -59,6 +59,7 @@ import {
   GoogleEarth,
   GoogleFit,
   GoogleFonts,
+  GoogleForms,
 } from './Google';
 
 export {
@@ -119,4 +120,5 @@ export {
   GoogleEarth,
   GoogleFit,
   GoogleFonts,
+  GoogleForms,
 };
