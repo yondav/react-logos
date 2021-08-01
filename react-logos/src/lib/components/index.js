@@ -57,6 +57,11 @@ import {
   GoogleDrive,
   GoogleDuo,
   GoogleEarth,
+  Material_Design,
+  GSuite,
+  Google_Voice,
+  Google_Verified,
+  Google_Tag_Manager,
 } from './Google';
 
 export {
@@ -115,4 +120,9 @@ export {
   GoogleDrive,
   GoogleDuo,
   GoogleEarth,
+  Material_Design,
+  GSuite,
+  Google_Voice,
+  Google_Verified,
+  Google_Tag_Manager,
 };

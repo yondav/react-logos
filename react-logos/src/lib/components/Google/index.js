@@ -25,3 +25,8 @@ export { default as GoogleDocs } from './Google_Docs';
 export { default as GoogleDrive } from './Google_Drive';
 export { default as GoogleDuo } from './Google_Duo';
 export { default as GoogleEarth } from './Google_Earth';
+export { default as Material_Design } from './Material_Design';
+export { default as GSuite } from './Gsuite';
+export { default as Google_Voice } from './Google_Voice';
+export { default as Google_Verified } from './Google_Verified';
+export { default as Google_Tag_Manager } from './Google_Tag_Manager';
