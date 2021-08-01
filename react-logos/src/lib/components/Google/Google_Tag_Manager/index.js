@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 
-const Google_Tag_Manager = (props) => {
+const GoogleTagManager = (props) => {
   const [color, setColor] = useState(props.color);
 
   const fill = {
@@ -14,10 +14,17 @@ const Google_Tag_Manager = (props) => {
     path_two: props.theme
       ? !color
         ? `${props.primaryWhite}c9` || '#ffffffc9'
-        : '#34A853'
+        : '#8AB4F8'
       : !color
       ? `${props.primaryDark}c9` || '#000000c9'
-      : '#34A853',
+      : '#8AB4F8',
+    path_three: props.theme
+      ? !color
+        ? props.primaryWhite || '#ffffff'
+        : '#246FDB'
+      : !color
+      ? props.primaryDark || '#000000'
+      : '#246FDB',
   };
 
   const handleMouseOver = () => {
@@ -45,7 +52,8 @@ const Google_Tag_Manager = (props) => {
       >
         <g>
           <polygon
-            fill='#8AB4F8'
+            className={props.transition}
+            fill={fill.path_two}
             points='150.261818 245.516364 105.825455 202.185455 201.258182 104.730909 247.265455 149.821818'
           ></polygon>
           <path
@@ -56,10 +64,11 @@ const Google_Tag_Manager = (props) => {
           <path
             className={props.transition}
             d='M246.625455,105.370909 L150.625455,9.37090909 C138.130909,-3.12363636 117.869091,-3.12363636 105.374545,9.37090909 C92.88,21.8654545 92.88,42.1272727 105.374545,54.6218182 L201.374545,150.621818 C213.869091,163.116364 234.130909,163.116364 246.625455,150.621818 C259.12,138.127273 259.12,117.865455 246.625455,105.370909 Z'
-            fill='#8AB4F8'
+            fill={fill.path_two}
           ></path>
           <circle
-            fill='#246FDB'
+            className={props.transition}
+            fill={fill.path_three}
             cx='127.265455'
             cy='224.730909'
             r='31.2727273'
@@ -70,4 +79,4 @@ const Google_Tag_Manager = (props) => {
   );
 };
 
-export default Google_Tag_Manager;
+export default GoogleTagManager;

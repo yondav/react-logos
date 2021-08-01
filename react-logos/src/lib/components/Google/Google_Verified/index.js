@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 
-const Google_Verified = (props) => {
+const GoogleVerified = (props) => {
   const [color, setColor] = useState(props.color);
 
   const fill = {
@@ -38,16 +38,16 @@ const Google_Verified = (props) => {
         className={props.transition}
         width={props.width || 128}
         height={props.height || 128}
-        enable-background='new 0 0 2039.9 2500'
+        enableBackground='new 0 0 2039.9 2500'
         viewBox='0 0 2039.9 2500'
         xmlns='http://www.w3.org/2000/svg'
       >
         <path
           className={props.transition}
-          clip-rule='evenodd'
+          clipRule='evenodd'
           d='m1991.4 503.9-942 1934.3-1001.9-1284.1z'
           fill='#fff'
-          fill-rule='evenodd'
+          fillRule='evenodd'
         />
         <path
           className={props.transition}
@@ -59,4 +59,4 @@ const Google_Verified = (props) => {
   );
 };
 
-export default Google_Verified;
+export default GoogleVerified;

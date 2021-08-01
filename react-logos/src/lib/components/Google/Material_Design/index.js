@@ -7,24 +7,24 @@ const Material_Design = (props) => {
     path_one: props.theme
       ? !color
         ? `${props.primaryWhite}c9` || '#ffffffc9'
-        : '#4285F4'
+        : '#757575'
       : !color
       ? `${props.primaryDark}c9` || '#000000c9'
-      : '#4285F4',
+      : '#757575',
     path_two: props.theme
       ? !color
         ? `${props.primaryWhite}c9` || '#ffffffc9'
-        : '#34A853'
+        : '#bdbdbd'
       : !color
       ? `${props.primaryDark}c9` || '#000000c9'
-      : '#34A853',
+      : '#bdbdbd',
     path_three: props.theme
       ? !color
         ? `${props.primaryWhite}e9` || '#ffffffe9'
-        : '#FBBC05'
+        : '#ffffff'
       : !color
       ? `${props.primaryDark}e9` || '#000000e9'
-      : '#FBBC05',
+      : '#ffffff',
   };
 
   const handleMouseOver = () => {
@@ -48,10 +48,24 @@ const Material_Design = (props) => {
         viewBox='0 0 24 24'
         xmlns='http://www.w3.org/2000/svg'
       >
-        <circle cx='12' cy='12' fill='#757575' r='12' />
-        <path d='m3.6 3.6h16.8v16.8h-16.8z' fill='#bdbdbd' />
-        <path d='m20.4 3.6-8.4 16.8-8.4-16.8z' fill='#fff' />
-        <path d='m0 0h24v24h-24z' fill='none' />
+        <circle
+          className={props.transition}
+          cx='12'
+          cy='12'
+          fill='#757575'
+          r='12'
+        />
+        <path
+          className={props.transition}
+          d='m3.6 3.6h16.8v16.8h-16.8z'
+          fill='#bdbdbd'
+        />
+        <path
+          className={props.transition}
+          d='m20.4 3.6-8.4 16.8-8.4-16.8z'
+          fill='#fff'
+        />
+        <path className={props.transition} d='m0 0h24v24h-24z' fill='none' />
       </svg>
     </div>
   );

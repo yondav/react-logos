@@ -32,7 +32,6 @@ export { default as GoogleHome } from './Google_Home';
 
 export { default as Material_Design } from './Material_Design';
 export { default as GSuite } from './Gsuite';
-export { default as Google_Voice } from './Google_Voice';
-export { default as Google_Verified } from './Google_Verified';
-export { default as Google_Tag_Manager } from './Google_Tag_Manager';
-
+export { default as GoogleVoice } from './Google_Voice';
+export { default as GoogleVerified } from './Google_Verified';
+export { default as GoogleTagManager } from './Google_Tag_Manager';
