@@ -28,3 +28,4 @@ export { default as GoogleEarth } from './Google_Earth';
 export { default as GoogleFit } from './Google_Fit';
 export { default as GoogleFonts } from './Google_Fonts';
 export { default as GoogleForms } from './Google_Forms';
+export { default as GoogleHome } from './Google_Home';

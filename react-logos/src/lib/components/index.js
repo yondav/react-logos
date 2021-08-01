@@ -60,6 +60,7 @@ import {
   GoogleFit,
   GoogleFonts,
   GoogleForms,
+  GoogleHome,
 } from './Google';
 
 export {
@@ -121,4 +122,5 @@ export {
   GoogleFit,
   GoogleFonts,
   GoogleForms,
+  GoogleHome,
 };
