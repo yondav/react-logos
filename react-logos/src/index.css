@@ -1,7 +1,8 @@
 :root {
   --pr-white: #f9f9f9;
   --pr-black: #393939;
-  --radius: 1rem;
+  --radius: 0.5rem;
+  --shadow: rgba(0, 0, 0, 0.25) 0px 4px 16px;
 }
 
 body {

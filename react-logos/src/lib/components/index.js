@@ -57,6 +57,7 @@ import {
   GoogleDrive,
   GoogleDuo,
   GoogleEarth,
+  GoogleFit,
 } from './Google';
 
 export {
@@ -115,4 +116,5 @@ export {
   GoogleDrive,
   GoogleDuo,
   GoogleEarth,
+  GoogleFit,
 };
