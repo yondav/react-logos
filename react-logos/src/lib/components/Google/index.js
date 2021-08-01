@@ -26,3 +26,4 @@ export { default as GoogleDrive } from './Google_Drive';
 export { default as GoogleDuo } from './Google_Duo';
 export { default as GoogleEarth } from './Google_Earth';
 export { default as GoogleFit } from './Google_Fit';
+export { default as GoogleFonts } from './Google_Fonts';

@@ -58,6 +58,7 @@ import {
   GoogleDuo,
   GoogleEarth,
   GoogleFit,
+  GoogleFonts,
 } from './Google';
 
 export {
@@ -117,4 +118,5 @@ export {
   GoogleDuo,
   GoogleEarth,
   GoogleFit,
+  GoogleFonts,
 };
