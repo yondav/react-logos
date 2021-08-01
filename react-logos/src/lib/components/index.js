@@ -57,6 +57,12 @@ import {
   GoogleDrive,
   GoogleDuo,
   GoogleEarth,
+  GoogleFit,
+  GoogleFonts,
+  GoogleForms,
+  GoogleHome,
+
+
   Material_Design,
   GSuite,
   Google_Voice,
@@ -120,6 +126,11 @@ export {
   GoogleDrive,
   GoogleDuo,
   GoogleEarth,
+  GoogleFit,
+  GoogleFonts,
+  GoogleForms,
+  GoogleHome,
+  
   Material_Design,
   GSuite,
   Google_Voice,

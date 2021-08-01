@@ -58,7 +58,7 @@ const GoogleEarth = (props) => {
         width={props.width || 128}
         height={props.height || 128}
         viewBox='0 0 4481.832 4482.661'
-        enable-background='new 0 0 4481.832 4482.661'
+        enableBackground='new 0 0 4481.832 4482.661'
       >
         <g id='g61'>
           <path
@@ -89,7 +89,7 @@ const GoogleEarth = (props) => {
         <circle
           className={props.transition}
           fill='url(#SVGID_1_)'
-          fill-opacity='0.1'
+          fillOpacity='0.1'
           cx='2240.918'
           cy='2241.6379'
           r='2240.9141'
