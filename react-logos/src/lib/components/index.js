@@ -66,6 +66,9 @@ import {
   GoogleVoice,
   GoogleVerified,
   GoogleTagManager,
+  GoogleSlides,
+  GoogleSites,
+  GoogleShopping,
 } from './Google';
 
 export {
@@ -133,4 +136,7 @@ export {
   GoogleVoice,
   GoogleVerified,
   GoogleTagManager,
+  GoogleSlides,
+  GoogleSites,
+  GoogleShopping,
 };

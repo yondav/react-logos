@@ -35,3 +35,6 @@ export { default as GSuite } from './Gsuite';
 export { default as GoogleVoice } from './Google_Voice';
 export { default as GoogleVerified } from './Google_Verified';
 export { default as GoogleTagManager } from './Google_Tag_Manager';
+export { default as GoogleSlides } from './Google_Slides';
+export { default as GoogleSites } from './Google_Sites';
+export { default as GoogleShopping } from './Google_Shopping';
